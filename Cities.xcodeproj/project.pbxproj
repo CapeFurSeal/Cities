@@ -14,20 +14,11 @@
 		92BE489A210B1F2800D7C91F /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE4899210B1F2800D7C91F /* CitiesViewController.swift */; };
 		92BE489C210B1F3B00D7C91F /* CityMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE489B210B1F3B00D7C91F /* CityMapViewController.swift */; };
 		92BE489E210B1FC100D7C91F /* CitiesNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE489D210B1FC100D7C91F /* CitiesNavigationController.swift */; };
-		92BE48A0210B25D400D7C91F /* CitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE489F210B25D400D7C91F /* CitiesTableViewCell.swift */; };
-		92BE48A3210B26A300D7C91F /* AppTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48A2210B26A300D7C91F /* AppTableview.swift */; };
-		92BE48A7210B2BEE00D7C91F /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 92BE48A6210B2BEE00D7C91F /* cities.json */; };
-		92BE48AA210B2C3500D7C91F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48A9210B2C3500D7C91F /* City.swift */; };
-		92BE48AC210B2D0E00D7C91F /* JsonDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48AB210B2D0E00D7C91F /* JsonDataManager.swift */; };
 		92BE48AE210B3BCA00D7C91F /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48AD210B3BCA00D7C91F /* ActivityIndicator.swift */; };
 		92BE48B6210B55F900D7C91F /* CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48B5210B55F900D7C91F /* CitiesTests.swift */; };
 		92BE48BE210D984700D7C91F /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48BD210D984700D7C91F /* AlertController.swift */; };
 		92BE48C0210DA8CF00D7C91F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48BF210DA8CF00D7C91F /* BaseViewController.swift */; };
-		92BE48C2210E4B8800D7C91F /* CityCountrySort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48C1210E4B8800D7C91F /* CityCountrySort.swift */; };
-		92BE48C4210ED19B00D7C91F /* RawServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48C3210ED19B00D7C91F /* RawServerResponse.swift */; };
-		92BE48C8210EE67700D7C91F /* CitiesTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48C7210EE67700D7C91F /* CitiesTableViewExtension.swift */; };
 		92BE48CA210EE77700D7C91F /* StoryboardSegueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48C9210EE77700D7C91F /* StoryboardSegueExtension.swift */; };
-		92BE48CC210EE7BD00D7C91F /* SearchResultsControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE48CB210EE7BD00D7C91F /* SearchResultsControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,22 +41,13 @@
 		92BE4899210B1F2800D7C91F /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
 		92BE489B210B1F3B00D7C91F /* CityMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityMapViewController.swift; sourceTree = "<group>"; };
 		92BE489D210B1FC100D7C91F /* CitiesNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesNavigationController.swift; sourceTree = "<group>"; };
-		92BE489F210B25D400D7C91F /* CitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewCell.swift; sourceTree = "<group>"; };
-		92BE48A2210B26A300D7C91F /* AppTableview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTableview.swift; sourceTree = "<group>"; };
-		92BE48A6210B2BEE00D7C91F /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
-		92BE48A9210B2C3500D7C91F /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
-		92BE48AB210B2D0E00D7C91F /* JsonDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataManager.swift; sourceTree = "<group>"; };
 		92BE48AD210B3BCA00D7C91F /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		92BE48B3210B55F900D7C91F /* CitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BE48B5210B55F900D7C91F /* CitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTests.swift; sourceTree = "<group>"; };
 		92BE48B7210B55F900D7C91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92BE48BD210D984700D7C91F /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		92BE48BF210DA8CF00D7C91F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		92BE48C1210E4B8800D7C91F /* CityCountrySort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCountrySort.swift; sourceTree = "<group>"; };
-		92BE48C3210ED19B00D7C91F /* RawServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawServerResponse.swift; sourceTree = "<group>"; };
-		92BE48C7210EE67700D7C91F /* CitiesTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewExtension.swift; sourceTree = "<group>"; };
 		92BE48C9210EE77700D7C91F /* StoryboardSegueExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardSegueExtension.swift; sourceTree = "<group>"; };
-		92BE48CB210EE7BD00D7C91F /* SearchResultsControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,21 +94,10 @@
 				92BE488C210B1EA600D7C91F /* Assets.xcassets */,
 				92BE488E210B1EA600D7C91F /* LaunchScreen.storyboard */,
 				92BE4891210B1EA600D7C91F /* Info.plist */,
-				92BE48A8210B2C1800D7C91F /* Models */,
-				92BE48A5210B2BC500D7C91F /* Json City Data */,
 				92BE48A1210B26A300D7C91F /* Extensions and Helpers */,
 				92BE4898210B1EE400D7C91F /* View Controllers */,
-				92BE4897210B1ED300D7C91F /* Services */,
 			);
 			path = Cities;
-			sourceTree = "<group>";
-		};
-		92BE4897210B1ED300D7C91F /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				92BE48AB210B2D0E00D7C91F /* JsonDataManager.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		92BE4898210B1EE400D7C91F /* View Controllers */ = {
@@ -135,9 +106,6 @@
 				92BE489D210B1FC100D7C91F /* CitiesNavigationController.swift */,
 				92BE4899210B1F2800D7C91F /* CitiesViewController.swift */,
 				92BE48C9210EE77700D7C91F /* StoryboardSegueExtension.swift */,
-				92BE48C7210EE67700D7C91F /* CitiesTableViewExtension.swift */,
-				92BE489F210B25D400D7C91F /* CitiesTableViewCell.swift */,
-				92BE48CB210EE7BD00D7C91F /* SearchResultsControllerExtension.swift */,
 				92BE489B210B1F3B00D7C91F /* CityMapViewController.swift */,
 				92BE48BF210DA8CF00D7C91F /* BaseViewController.swift */,
 			);
@@ -147,29 +115,10 @@
 		92BE48A1210B26A300D7C91F /* Extensions and Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				92BE48A2210B26A300D7C91F /* AppTableview.swift */,
 				92BE48AD210B3BCA00D7C91F /* ActivityIndicator.swift */,
 				92BE48BD210D984700D7C91F /* AlertController.swift */,
-				92BE48C1210E4B8800D7C91F /* CityCountrySort.swift */,
 			);
 			path = "Extensions and Helpers";
-			sourceTree = "<group>";
-		};
-		92BE48A5210B2BC500D7C91F /* Json City Data */ = {
-			isa = PBXGroup;
-			children = (
-				92BE48A6210B2BEE00D7C91F /* cities.json */,
-			);
-			path = "Json City Data";
-			sourceTree = "<group>";
-		};
-		92BE48A8210B2C1800D7C91F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				92BE48A9210B2C3500D7C91F /* City.swift */,
-				92BE48C3210ED19B00D7C91F /* RawServerResponse.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		92BE48B4210B55F900D7C91F /* CitiesTests */ = {
@@ -262,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92BE48A7210B2BEE00D7C91F /* cities.json in Resources */,
 				92BE4890210B1EA600D7C91F /* LaunchScreen.storyboard in Resources */,
 				92BE488D210B1EA600D7C91F /* Assets.xcassets in Resources */,
 				92BE488B210B1EA500D7C91F /* Main.storyboard in Resources */,
@@ -284,20 +232,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				92BE489E210B1FC100D7C91F /* CitiesNavigationController.swift in Sources */,
-				92BE48A0210B25D400D7C91F /* CitiesTableViewCell.swift in Sources */,
-				92BE48C4210ED19B00D7C91F /* RawServerResponse.swift in Sources */,
 				92BE48C0210DA8CF00D7C91F /* BaseViewController.swift in Sources */,
-				92BE48C8210EE67700D7C91F /* CitiesTableViewExtension.swift in Sources */,
 				92BE489C210B1F3B00D7C91F /* CityMapViewController.swift in Sources */,
-				92BE48A3210B26A300D7C91F /* AppTableview.swift in Sources */,
 				92BE489A210B1F2800D7C91F /* CitiesViewController.swift in Sources */,
 				92BE4886210B1EA500D7C91F /* AppDelegate.swift in Sources */,
 				92BE48BE210D984700D7C91F /* AlertController.swift in Sources */,
-				92BE48CC210EE7BD00D7C91F /* SearchResultsControllerExtension.swift in Sources */,
-				92BE48AA210B2C3500D7C91F /* City.swift in Sources */,
-				92BE48C2210E4B8800D7C91F /* CityCountrySort.swift in Sources */,
 				92BE48AE210B3BCA00D7C91F /* ActivityIndicator.swift in Sources */,
-				92BE48AC210B2D0E00D7C91F /* JsonDataManager.swift in Sources */,
 				92BE48CA210EE77700D7C91F /* StoryboardSegueExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

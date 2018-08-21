@@ -13,9 +13,8 @@ extension CitiesViewController {
   // MARK: - Segues
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "citiesToCityMapSegue" {
-      if let vc = segue.destination as? CityMapViewController {
-        vc.city = self.selectedCity
-      }
+      //if let vc = segue.destination as? CityMapViewController {
+      //}
     }
   }
 }

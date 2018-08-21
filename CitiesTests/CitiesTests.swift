@@ -33,31 +33,4 @@ class CitiesTests: XCTestCase {
   func testCitiesViewControllerInstantiation() {
     XCTAssertNotNil(citiesViewController)
   }
-  
-  func testCitiesViewControllerHasSearchController() {
-    XCTAssertNotNil(citiesViewController.searchResultsController)
-  }
-  
-  func testThatCityFilterIsOrderedInAlphabeticalOrder() {
-    let expectations = expectation(description: "Cities json service file does to fullfil")
-    JsonDataManager().loadJson( completion: { (cities) in
-      XCTAssertNotNil(cities)
-      self.citiesViewController.filter(text: "Southwo") { (cities) in
-        XCTAssertNotNil(cities)
-        XCTAssertEqual(cities.count, 3)
-        XCTAssertEqual(cities[0].name, "Southwold")
-        XCTAssertEqual(cities[1].name, "Southwood Acres")
-        XCTAssertEqual(cities[2].name, "Southworth")
-        expectations.fulfill()
-      }
-    }) { (error) in
-      XCTAssertThrowsError(error)
-      XCTAssertNotNil(error)
-    }
-    waitForExpectations(timeout: 30) { error in
-      if let error = error {
-        XCTFail("waitForExpectationsWithTimeout errored: \(error)")
-      }
-    }
-  }
 }

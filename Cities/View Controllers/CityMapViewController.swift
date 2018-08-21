@@ -14,7 +14,6 @@ class CityMapViewController: BaseViewController {
   @IBOutlet fileprivate weak var cityMapView: MKMapView?
   fileprivate var annotationView: MKAnnotationView?
   fileprivate var selectedPin: MKPlacemark?
-  internal var city: City?
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -29,21 +28,15 @@ class CityMapViewController: BaseViewController {
   }
   
   fileprivate func setupMapview() {
-    guard let coordinates = city?.coordinates,
-      let cityMapView = self.cityMapView,
-      let name = city?.name,
-      let country = city?.country else {
-      return
-    }
-    let placemark = MKPlacemark(coordinate:coordinates, addressDictionary: nil)
-    cityMapView.removeAnnotations(cityMapView.annotations)
-    let annotationPin = MKPointAnnotation()
-    annotationPin.coordinate = placemark.coordinate
-    annotationPin.title = "\(name), \(country)"
-    cityMapView.addAnnotation(annotationPin)
-    let span = MKCoordinateSpanMake(0.8, 0.8)
-    let region = MKCoordinateRegionMake(placemark.coordinate, span)
-    cityMapView.setRegion(region, animated: true)
+//    let placemark = MKPlacemark(coordinate:coordinates, addressDictionary: nil)
+//    cityMapView.removeAnnotations(cityMapView.annotations)
+//    let annotationPin = MKPointAnnotation()
+//    annotationPin.coordinate = placemark.coordinate
+//    annotationPin.title = "\(name), \(country)"
+//    cityMapView.addAnnotation(annotationPin)
+//    let span = MKCoordinateSpanMake(0.8, 0.8)
+//    let region = MKCoordinateRegionMake(placemark.coordinate, span)
+//    cityMapView.setRegion(region, animated: true)
   }
 }
 
